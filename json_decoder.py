@@ -10,11 +10,6 @@ class json_decoder(): #Decodes json obejcts into accessable objects in python
     """
     @classmethod
     def decode(cls,data):
-        """
-
-        :param data:
-        :return:
-        """
         rturn = cls.json2obj(data)
         return rturn
 
